@@ -1,0 +1,92 @@
+.home {
+  width: 100%;
+  height: 100%;
+  padding-top: 15%;
+  padding-bottom: 22%;
+}
+
+#home {
+  background-image: url('../img/home-3.png');
+}
+
+.home h1{
+  color:#ffffff;
+  font-size: 55px;
+}
+
+.home p{
+  color:#ffffff;
+  font-size: 35px;
+}
+
+.logo {
+	width: 30px;
+	height: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+nav .container {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.bg-black {
+  background-color: #1c1c1c;  
+}
+
+#navbarResponsive > ul > li {
+  margin-right: 3%;
+}
+
+textarea {
+	resize: none;
+}
+
+.home-img {
+  filter: brightness(45%);
+  width:100%;
+  height:100%;
+}
+
+
+/* Media Query para Iphone X */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+  .home p{
+    margin-top: 3%;
+    font-size: 26px;
+  }
+}
+
+/*Iphone 4, 5*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  
+  .home p{
+    margin-top: 3%;
+    font-size: 26px;
+  }
+
+}
+
+/*Galaxy S5*/
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  .home p{
+    margin-top: 3%;
+    font-size: 26px;
+  }
+}
