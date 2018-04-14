@@ -1,20 +1,31 @@
+html, body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
 .home {
   width: 100%;
   height: 100%;
+  background-size: cover!important;
+  background-position: 50%!important;
+}
+
+#home {
+  background: 
+            linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.86)), 
+            url("../img/craft-my-pc.jpg") center bottom no-repeat; 
+  transform: translate3d(0px, 0px, 0px);
   padding-top: 15%;
   padding-bottom: 22%;
 }
 
-#home {
-  background-image: url('../img/home-3.png');
-}
-
-.home h1{
+.intro-title {
   color:#ffffff;
   font-size: 55px;
 }
 
-.home p{
+.intro-text {
   color:#ffffff;
   font-size: 35px;
 }
@@ -26,9 +37,18 @@
 	margin-right: 5%;
 }
 
+nav {
+  font-family: 'Work Sans', sans-serif;
+}
+
 nav .container {
 	padding-top: 1%;
 	padding-bottom: 1%;
+}
+
+.nav-item {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .bg-black {
@@ -49,6 +69,39 @@ textarea {
   height:100%;
 }
 
+#sobre {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sobre-button {
+  margin-top: 10%;
+}
+
+#img-sobre {
+  margin-bottom: 2%;
+}
+
+#why-craft {
+  background-color: #d2404b;
+  color: #fafafa;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+}
+
+.content {
+
+}
+
+
 
 /* Media Query para Iphone X */
 /* Portrait */
@@ -61,6 +114,24 @@ textarea {
   .home p{
     margin-top: 3%;
     font-size: 26px;
+  }
+
+  #sobre {
+    padding: 5%;
+  }
+
+  #sobre h2 {
+    font-size: 35px;
+  }
+
+  #sobre p, #sobre ul > li{
+    font-size: 20px;
+  }
+
+  .sobre-button{
+    margin-top: 10%;
+    padding-left: 30%;
+    padding-right: 10%;
   }
 }
 
@@ -76,6 +147,24 @@ textarea {
     font-size: 26px;
   }
 
+  #sobre {
+    padding: 5%;
+  }
+
+  #sobre h2 {
+    font-size: 35px;
+  }
+
+  #sobre p, #sobre ul > li{
+    font-size: 20px;
+  }
+
+  .sobre-button{
+    margin-top: 10%;
+    padding-left: 30%;
+    padding-right: 10%;
+  }
+
 }
 
 /*Galaxy S5*/
@@ -88,5 +177,23 @@ textarea {
   .home p{
     margin-top: 3%;
     font-size: 26px;
+  }
+
+  #sobre {
+    padding: 5%;
+  }
+
+  #sobre h2 {
+    font-size: 35px;
+  }
+
+  #sobre p, #sobre ul > li{
+    font-size: 20px;
+  }
+
+  .sobre-button{
+    margin-top: 10%;
+    padding-left: 30%;
+    padding-right: 10%;
   }
 }
