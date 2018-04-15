@@ -112,10 +112,19 @@ textarea {
 
 .craft-intro {
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .craft-pc {
   background: linear-gradient(#2d2d38, #1c1c1c);
+  height: 75%;
+  width: 100%;
+  padding-top: 9%;
+  padding-bottom: 8%;
+}
+
+#conteudo-incluso > h2 {
+  margin-bottom: 5%;
 }
 
 section.craft-pc > div {
@@ -186,7 +195,7 @@ section.craft-pc > div {
   opacity: 1;
 }
 
-#conteudo-incluso h2, #conteudo-incluso p {
+#conteudo-incluso h1, #conteudo-incluso h2, #conteudo-incluso p {
   color: #fafafa;
 }
 
@@ -195,13 +204,33 @@ section.craft-pc > div {
   height: 100px;
   margin-left: 27.5%;
   font-size: 1.25rem;
+  margin-top: 5%;
 }
 
 .dark {
   background-color: 
 }
 
+.btn-choice {
+  height: 80px;
+  margin-bottom: 5%;
+  font-size: 21px;
+}
 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+  .craft-pc {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .btn-choice {
+    margin-top: 10%;
+  }
+}
 /* Media Query para Iphone X */
 /* Portrait */
 @media only screen 
@@ -231,6 +260,47 @@ section.craft-pc > div {
     margin-top: 10%;
     padding-left: 30%;
     padding-right: 10%;
+  }
+
+  #start-button {
+    word-wrap: break-word !important;
+    white-space: pre-line;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .craft-intro {
+    margin: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+  }
+
+  #teste-img {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .sobre-button {
+    padding: 5%;
+    padding-left: 25%;
+  }
+
+  .craft-pc{
+    padding-top: 20% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .btn-choice {
+    margin-top: 5%;
+    font-size: 20px;
   }
 }
 
@@ -264,6 +334,47 @@ section.craft-pc > div {
     padding-right: 10%;
   }
 
+  #start-button {
+    word-wrap: break-word !important;
+    white-space: pre-line;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .craft-intro {
+    margin: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+  }
+
+  #teste-img {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .sobre-button {
+    padding: 5%;
+    padding-left: 25%;
+  }
+
+  .craft-pc{
+    padding-top: 20% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .btn-choice {
+    margin-top: 5%;
+    font-size: 20px;
+  }
+
 }
 
 /*Galaxy S5*/
@@ -294,5 +405,46 @@ section.craft-pc > div {
     margin-top: 10%;
     padding-left: 30%;
     padding-right: 10%;
+  }
+
+  #start-button {
+    word-wrap: break-word !important;
+    white-space: pre-line;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .craft-intro {
+    margin: 3%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+  }
+
+  #teste-img {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .sobre-button {
+    padding: 5%;
+    padding-left: 25%;
+  }
+
+  .craft-pc{
+    padding-top: 20% !important;
+    padding-bottom: 10% !important;
+  }
+
+  .btn-choice {
+    margin-top: 5%;
+    font-size: 20px;
   }
 }
