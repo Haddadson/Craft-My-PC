@@ -217,6 +217,27 @@ section.craft-pc > div {
   font-size: 21px;
 }
 
+.resultado-final {
+  font-size: 45px;
+}
+
+.conteudo-final {
+  font-size: 22px;
+}
+
+.beta {
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+#resultado, #tipo-resultado {
+  color: #d2404b;
+}
+
+.img-wip {
+  margin-left: 40%;
+}
+
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
@@ -300,6 +321,19 @@ section.craft-pc > div {
     margin-top: 5%;
     font-size: 20px;
   }
+
+  #conteudo-incluso > h2 {
+    margin-bottom: 10%;
+  }
+
+  .beta {
+    margin-top: 7%;
+  }
+
+  .img-wip {
+    margin-left: 16%;
+    margin-top: 5%;
+  }
 }
 
 /*Iphone 4, 5*/
@@ -371,6 +405,18 @@ section.craft-pc > div {
     font-size: 20px;
   }
 
+  #conteudo-incluso > h2 {
+    margin-bottom: 10%;
+  }
+
+  .beta {
+    margin-top: 7%;
+  }
+
+  .img-wip {
+    margin-left: 16%;
+  }
+
 }
 
 /*Galaxy S5*/
@@ -440,5 +486,17 @@ section.craft-pc > div {
   .btn-choice {
     margin-top: 5%;
     font-size: 20px;
+  }
+
+  #conteudo-incluso > h2 {
+    margin-bottom: 10%;
+  }
+
+  .beta {
+    margin-top: 7%;
+  }
+
+  .img-wip {
+    margin-left: 16%;
   }
 }
