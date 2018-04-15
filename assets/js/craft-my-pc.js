@@ -93,7 +93,7 @@ $(document).ready(function(){
    $("#conteudo-incluso").on('click','#leve-medio' ,function(){
         $("#conteudo-incluso").empty();
         $("#conteudo-incluso").load("components/resultado.html", function (){
-	        $("#resultado").text("simples, exigindo algumas peças básica para suportar jogos leves");
+	        $("#resultado").text("simples, exigindo algumas peças básicas para suportar jogos leves");
 	        $("#tipo-resultado").text("jogar");
         });
 
