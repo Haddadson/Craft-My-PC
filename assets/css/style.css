@@ -124,11 +124,23 @@ textarea {
 }
 
 .craft-pc {
-  background: linear-gradient(#2d2d38, #1c1c1c);
+  
   height: 75%;
   width: 100%;
   padding-top: 9%;
   padding-bottom: 10%;
+}
+
+.craft-pc-img {
+  background: 
+      linear-gradient(rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.86)), 
+      url("../img/quem-somos.png") center bottom no-repeat; 
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.craft-pc-background {
+  background: linear-gradient(#2d2d38, #1c1c1c);
 }
 
 #conteudo-incluso > h2 {
@@ -211,7 +223,7 @@ section.craft-pc > div {
   width: 45%;
   height: 100px;
   margin-left: 27.5%;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   margin-top: 5%;
 }
 

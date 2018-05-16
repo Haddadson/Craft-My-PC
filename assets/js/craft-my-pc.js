@@ -3,6 +3,8 @@ $(document).ready(function(){
     $("#start-button").on('click', function(){
         $("#conteudo-incluso").empty();
         $("#conteudo-incluso").load("components/initial-question.html");
+        $('#craft-pc-section').removeClass('craft-pc-img');
+        $('#craft-pc-section').addClass('craft-pc-background');
         $(".craft-intro").remove();
     });
 
