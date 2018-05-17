@@ -134,8 +134,9 @@ textarea {
 .craft-pc-img {
   background: 
       linear-gradient(rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.86)), 
+      rgba(0, 0, 0, 0.86)),
       url("../img/quem-somos.png") center bottom no-repeat; 
+  background-size: cover;
   transform: translate3d(0px, 0px, 0px);
 }
 
