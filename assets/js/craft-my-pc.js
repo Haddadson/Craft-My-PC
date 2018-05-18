@@ -9,7 +9,7 @@ function geraResultado (data) {
     let html ="";
 
     if(data == [] || data.length == 0){
-        html += `<div class = 'card'>Infelizmente nosso banco ainda não possui máquinas para este modelo de computador 🙁</div>`;
+        html += `<div class = 'card pc-item'>Infelizmente nosso banco ainda não possui máquinas para este modelo de computador 🙁</div>`;
     } else {
         for(let i in data){
             html += `<div class = 'card'>`
