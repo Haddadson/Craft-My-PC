@@ -4,68 +4,29 @@ function cria(element){
 
 
 function geraResultado (data) {
-    let descricao, nomePlacaMae, nomePlacaVideo, nomeProcessador, nomeHD, nomeFonte, nomeRAM;
-    let divItem, divConteudo;
+    console.log(data);
     let html ="";
 
     if(data == [] || data.length == 0){
         html += `<div class = 'card pc-item'>Infelizmente nosso banco ainda não possui máquinas para este modelo de computador 🙁</div>`;
     } else {
+        html += `<h4 class="descricao-final">`+data[0].txt_descricao+`</h4>`;
         for(let i in data){
-            html += `<div class = 'card'>`
-            for(let key in data[i]){
-                 html += `<div>`+data[i][key]+`</div>`;
-            }
+            html += `<div class = 'card pc-final'>`;
+            html += `<p class = 'text-dark num-pc-final'><span class="font-weight-bold">Opção `+(parseInt(i)+1)+`</span></p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Placa Mãe:</span> `+data[i].nom_placaMae+`</p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Processador:</span> `+data[i].nom_processador+`</p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Placa de vídeo:</span> `+data[i].nom_placaVideo+`</p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Armazenamento:</span> `+data[i].qtd_armazenamento+`</p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Memória RAM:</span> `+data[i].qtd_ram+`</p>`;
+            html += `<p class = 'text-dark pc-item-final'><span class="font-weight-bold">Fonte:</span> `+data[i].nom_fonte+`</p>`;
             html +=`</div><br><brOU<br><br>`;       
         }
         
     }
 
-
-
     $('#resultado').html(html);
 
-
-    // divItem = cria('div');
-    // divItem.className = "item";
-
-    // divConteudo = cria('div');
-    // divConteudo.className = "carousel-content";
-
-    // descricao = cria('p');
-    // descricao.className = "conteudo-final";
-    // descricao.innerHTML = data.txt_descricao;
-
-    // nomePlacaMae = cria('p');
-    // nomePlacaMae.innerHTML = 'Placa mãe: ' + data.nom_placaMae;
-
-    // nomePlacaVideo = cria('p');
-    // nomePlacaVideo.innerHTML = 'Placa de vídeo: ' + data.nom_placaVideo;
-
-    // nomeProcessador = cria('p');
-    // nomeProcessador.innerHTML = 'Processador: ' + data.nom_processador;
-
-    // nomeHD = cria('p');
-    // nomeHD.innerHTML = 'HD (Armazenamento): ' + data.qtd_armazenamento;
-
-    // nomeRAM = cria('p');
-    // nomeRAM.innerHTML = 'Memória: ' + data.qtd_ram;
-
-    // nomeFonte = cria('p');
-    // nomeFonte.innerHTML = 'Fonte: ' + data.nom_fonte;
-
-
-
-    // divConteudo.appendChild(descricao);
-    // divConteudo.appendChild(nomePlacaMae);
-    // divConteudo.appendChild(nomePlacaVideo);
-    // divConteudo.appendChild(nomeProcessador);   
-    // divConteudo.appendChild(nomeHD);
-    // divConteudo.appendChild(nomeFonte);
-    // divConteudo.appendChild(nomeRAM);
-
-    // divItem.appendChild(divConteudo);
-    // document.querySelector('#resultado').appendChild(divItem);
 }
 
 
