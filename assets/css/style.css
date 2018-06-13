@@ -376,7 +376,7 @@ section.craft-pc > div {
 
   .btn-choice {
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #conteudo-incluso > h2 {
@@ -404,6 +404,14 @@ section.craft-pc > div {
   .intro-title {
     font-size: 50px;
     margin-top: 15%;
+  }
+
+  .descricao-final {
+    font-size: 1.2em;
+  }
+
+  .pc-final {
+    padding: 4%;
   }
 }
 
@@ -473,7 +481,7 @@ section.craft-pc > div {
 
   .btn-choice {
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #conteudo-incluso > h2 {
@@ -500,6 +508,14 @@ section.craft-pc > div {
   .intro-title {
     font-size: 50px;
     margin-top: 15%;
+  }
+
+  .descricao-final {
+    font-size: 1.2em;
+  }
+
+  .pc-final {
+    padding: 4%;
   }
 
 }
@@ -570,7 +586,7 @@ section.craft-pc > div {
 
   .btn-choice {
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #conteudo-incluso > h2 {
@@ -597,5 +613,13 @@ section.craft-pc > div {
   .intro-title {
     font-size: 50px;
     margin-top: 15%;
+  }
+
+  .descricao-final {
+    font-size: 1.2em;
+  }
+
+  .pc-final {
+    padding: 4%;
   }
 }
