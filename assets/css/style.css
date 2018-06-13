@@ -10,6 +10,11 @@ html, body {
   height: 100%;
 }
 
+.tomato {
+  color: #d2404b;
+  font-size: 1.05em;
+}
+
 #home {
   background: 
             linear-gradient(rgba(0, 0, 0, 0.45),
@@ -246,8 +251,6 @@ section.craft-pc > div {
 
 .pc-final {
   padding: 2%;
-  margin-left: 15%;
-  margin-right: 15%;
 }
 
 .pc-item-final {
@@ -255,7 +258,6 @@ section.craft-pc > div {
 }
 
 .pc-item {
-  margin-left: 50%;
   padding: 5%;
   color: black !important;
 }
